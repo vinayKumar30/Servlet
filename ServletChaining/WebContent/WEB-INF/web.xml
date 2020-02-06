@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+ 
+  <display-name>life_cycle_proj</display-name>
+	<welcome-file-list>
+		<welcome-file>root.html</welcome-file>   <!-- landing page -->
+	</welcome-file-list>
+	
+	<!-- <servlet>
+	
+	<servlet-name>life</servlet-name>
+	<servlet-class>com.org.lifeCycle.LifeCycleServlet</servlet-class>
+	
+	<init-param>
+	<param-name>name</param-name>
+	<param-value>BeginningOfLifeCyle</param-value>
+	</init-param>
+	
+	<init-param>
+	<param-name>age</param-name>
+	<param-value>56</param-value>
+	</init-param>
+	
+	<load-on-startup>+99</load-on-startup>
+	
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>life</servlet-name>
+	<url-pattern>lifecycle</url-pattern>
+	</servlet-mapping>
+	 -->
+	 
+</web-app>
